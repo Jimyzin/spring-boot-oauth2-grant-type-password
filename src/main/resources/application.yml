@@ -1,0 +1,12 @@
+server:
+  port: 8010
+
+spring:
+  security:
+    oauth2:
+      client:
+        clientId: springboot-client-app
+        clientSecret:
+        accessTokenUri: http://127.0.0.1:8080/auth/realms/OAuth2-Demo/protocol/openid-connect/token
+        clientAuthenticationScheme: form
+
